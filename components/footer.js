@@ -6,7 +6,7 @@ export default function  footer
   return (
     <footer className=' items-center'>
         <h1> Rocket Monsters</h1>
-        <p className='justify-between item-center mt-4 mb-4 text-gray-600 '>is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s.</p>
+        <p className='justify-between item-center mt-4 mb-4 text-gray-600 '>is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry&`&apos;`s standard dummy text ever since the 1500s.</p>
         <div className='flex  items-center justify-center gap-2'> 
                  <div>   
                  <a href='https://twitter.com/MonstersRocket'><Image
