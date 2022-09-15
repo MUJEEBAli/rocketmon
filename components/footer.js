@@ -1,14 +1,15 @@
+import Image from 'next/image'
 import React from 'react'
 
-export default function 
+export default function  footer
 () {
   return (
     <footer className=' items-center'>
         <h1> Rocket Monsters</h1>
-        <p className='justify-between item-center mt-4 mb-4 text-gray-600 '>is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p className='justify-between item-center mt-4 mb-4 text-gray-600 '>is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s.</p>
         <div className='flex  items-center justify-center gap-2'> 
                  <div>   
-                 <a href='https://twitter.com/MonstersRocket'><img
+                 <a href='https://twitter.com/MonstersRocket'><Image
       alt="Rock Monsitor"
       src="/twitter.svg"
       
@@ -18,7 +19,7 @@ export default function
     </a></div>
          
          <div>
-         <a href='https://discord.gg/xpzHexbhyU'><img
+         <a href='https://discord.gg/xpzHexbhyU'><Image
       alt="Rock Monsitor"
       src="/discord.svg"
       width={30}
@@ -27,7 +28,7 @@ export default function
     </a>
          </div>
   <div> 
-     <a href='https://www.youtube.com/c/RocketMonsters/videos'><img
+     <a href='https://www.youtube.com/c/RocketMonsters/videos'><Image
       alt="Rock Monsitor"
       src="/youtube.svg"
       width={30}
