@@ -3,12 +3,12 @@ import React from 'react'
 export default function 
 () {
   return (
-    <div  className='justify-center items-center'>
+    <div  className='justify-between items-center mt-6 mb-6'>
         
-        <div> <button className=' text-lg bg-[#616161] text-white font-bold rounded-full pr-4 pl-4'>0 SOL</button></div>
+        <div> <button className=' text-lg bg-[#616161] text-white font-bold rounded-full mb-4 pr-4 pl-4'>0 SOL</button></div>
         <div>
             <img 
-       src="/cool-cats.gif"
+       src="/center.png"
        alt=""
        width={500}
        Height={500}
