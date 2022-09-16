@@ -3,14 +3,16 @@ import React from 'react'
 
 function TopBar() {
   return (
-    <header className='bg-black text-white w-full'>
+    <header className=' text-white w-full'>
       <div className='flex justify-between   items-center ml-3 mr-3 md:ml-24 md:mr-24 pt-3'>
 
         <div className='ml-1 pt-4'>
           <Image
             alt="Rock Monsitor"
             src="/ico.webp"
-            className=' w-52'
+            className='logo'
+            width={160}
+            height={120}
           />
         </div>
 

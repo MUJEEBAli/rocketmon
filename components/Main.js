@@ -9,10 +9,10 @@ export default function Main
         <div> <button className=' text-lg bg-[#616161] text-white font-bold rounded-full mb-4 pr-4 pl-4'>0 SOL</button></div>
         <div>
             <Image
-       src="/center.png"
+       src="/cool-cats.gif"
        alt=""
-       width={500}
-       Height={500}
+       width={300}
+       height={200}
        />
         </div>
        

@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'bgm': "url('/center.png')",
+      
+        
+        
+
+      }
 
     },
     fontFamily: {
