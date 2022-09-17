@@ -4,20 +4,19 @@ import React from 'react'
 function TopBar() {
   return (
     <header className=' text-white w-full'>
-      <div className='flex justify-between   items-center ml-3 mr-3 md:ml-24 md:mr-24 pt-3'>
+      <div className='flex flex-col tablet:flex-row justify-between   items-center ml-0 mr-0 md:ml-1 md:mr-1 lg:ml-24 lg:mr-24 pt-3 '>
 
-        <div className='ml-1 pt-4'>
+        <div className='pt-4 sm:image-logo'>
           <Image
-            alt="Rock Monsitor"
-            src="/ico.webp"
-            className='logo'
-            width={160}
-            height={120}
+            alt="Rock Monsitor" 
+            src="/logo.png"
+            width={350}
+            height={90}
           />
         </div>
 
         <div className=''>
-          <button className='  bg-blue-500 hover:bg-blue-700 text-white md:font-bold  py-1  px-3 md:py-2 md:px-4  rounded-full'> Connect Wallet</button>
+          <button className='  bg-blue-500 hover:bg-blue-700 text-white md:font-bold md:py-2 md:px-4  rounded-full sm:align-bottom'>Connect wallet</button>
         </div>
       </div>
 
